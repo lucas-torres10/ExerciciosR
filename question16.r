@@ -1,0 +1,6 @@
+notasTurmaA = c(8, 7, 9, 6, 10, 5)
+notasTurmaB = c(7, 8, 9)
+todasNotas = c(notasTurmaA, notasTurmaB)
+notasSomadas = sum(todasNotas)
+print(notasSomadas)
+cat("A soma total das notas das duas turmas é:", notasSomadas)
